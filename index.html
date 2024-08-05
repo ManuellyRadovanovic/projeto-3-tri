@@ -1,20 +1,58 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Você decide o futuro da IA</title>
+    <title>Do Campo à Cidade: Colhendo Oportunidades</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="caixa-principal">
-        <h1>Você decide o futuro da IA</h1>
-        <div class="caixa-perguntas"></div>
-        <div class="caixa-alternativas"></div>
-        <div class="caixa-resultado">
-            <p class="texto-resultado"></p>
-        </div>
-    </div>
-    <script src="script.js"></script>
+    <header>
+        <h1>Do Campo à Cidade</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#oportunidades">Oportunidades</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre</h2>
+            <p>Este site explora as oportunidades que surgem da transição do campo para a cidade, promovendo um diálogo sobre desenvolvimento sustentável e inovação.</p>
+        </section>
+
+        <section id="oportunidades">
+            <h2>Oportunidades</h2>
+            <ul>
+                <li>Acesso a mercados urbanos</li>
+                <li>Educação e capacitação</li>
+                <li>Inovação em técnicas agrícolas</li>
+                <li>Empreendedorismo rural</li>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form action="#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Do Campo à Cidade. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
