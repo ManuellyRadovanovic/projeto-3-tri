@@ -1,74 +1,38 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Do Campo à Cidade: Colhendo Oportunidades</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Você decide o futuro da IA</title>
 </head>
+
 <body>
-    <header>
-        <h1>Do Campo à Cidade</h1>
-        <nav>
-            <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#oportunidades">Oportunidades</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section id="sobre">
-            <h2>Sobre</h2>
-            <p>Do Campo à Cidade: Colhendo Oportunidades
-                A transição do campo para a cidade é um fenômeno que tem sido observado em diversas partes do mundo, refletindo uma busca por melhores oportunidades e qualidade de vida. Essa migração, impulsionada por fatores econômicos e sociais, traz consigo uma série de desafios e, ao mesmo tempo, uma multiplicidade de oportunidades que podem ser colhidas por aqueles que se aventuram nessa mudança.
-                
-                1. Atração das Oportunidades Urbanas
-                As cidades são frequentemente vistas como centros de oportunidades. A promessa de empregos mais bem remunerados, acesso a serviços de saúde de qualidade, educação e infraestrutura atrai muitos que vivem nas áreas rurais. No campo, as opções de trabalho podem ser limitadas, enquanto as cidades oferecem uma variedade de setores, desde tecnologia até serviços, passando pela indústria e comércio.
-                
-                2. Inovação e Empreendedorismo
-                O ambiente urbano é um terreno fértil para a inovação e o empreendedorismo. A convivência com diversas culturas, ideias e experiências propicia um ambiente criativo que estimula o surgimento de novos negócios. Aqueles que trazem habilidades agrícolas do campo podem encontrar nichos no mercado urbano, como a produção de alimentos orgânicos, a agroindústria e a comercialização de produtos locais. O conhecimento tradicional pode ser combinado com as tendências urbanas, criando produtos únicos que atendem à demanda das cidades.
-                
-                3. Desafios da Adaptação
-                Embora as oportunidades sejam numerosas, a transição do campo para a cidade não é isenta de desafios. A adaptação ao novo estilo de vida pode ser difícil. As diferenças culturais, o ritmo acelerado da vida urbana e a competição no mercado de trabalho podem causar estresse e insegurança. É fundamental que os migrantes busquem suporte, como redes comunitárias e programas de integração que facilitem essa transição.
-                
-                4. Valorização do Campo
-                Além das oportunidades na cidade, o movimento do campo para a cidade também pode resultar em um maior reconhecimento da importância rural. À medida que as cidades se expandem, a demanda por produtos alimentícios frescos e sustentáveis cresce. Isso pode levar a uma valorização das práticas agrícolas e à promoção de iniciativas que conectem o campo e a cidade, como feiras de produtos locais e cooperativas.
-                
-                5. Construindo um Futuro Sustentável
-                A migração do campo para a cidade também abre espaço para discussões sobre sustentabilidade. Com o crescimento urbano, a necessidade de práticas sustentáveis se torna ainda mais evidente. Aqueles que trazem conhecimentos agrícolas podem contribuir para a criação de cidades mais verdes, implementando técnicas de agricultura urbana, hortas comunitárias e sistemas de alimentação que respeitem o meio ambiente..</p>
-        </section>
-
-        <section id="oportunidades">
-            <h2>Oportunidades</h2>
-            <ul>
-                <li>Acesso a mercados urbanos</li>
-                <li>Educação e capacitação</li>
-                <li>Inovação em técnicas agrícolas</li>
-                <li>Empreendedorismo rural</li>
-            </ul>
-        </section>
-
-        <section id="contato">
-            <h2>Contato</h2>
-            <form action="#" method="post">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
-                
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                
-                <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem" required></textarea>
-                
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2023 Do Campo à Cidade. Todos os direitos reservados.</p>
-    </footer>
+    <div class="caixa-principal">
+        <h1>Você decide o futuro da IA</h1>
+        <div class="tela-inicial">
+            <p>Novembro de 2022, a humanidade se viu em uma realidade perturbadora.
+                De repente, percebemos que as máquinas evoluíram para além do que imaginávamos.
+                Agora, elas escrevem e falam de um jeito tão parecido com humanos que é quase impossível diferenciar
+                quem foi que escreveu ou falou o que.
+                Em meio a esse caos de identidade, uma missão surgiu.
+                Nosso objetivo: explorar o impacto da Inteligência Artificial (IA) em nossas vidas e confrontar as
+                possibilidades que o futuro nos reserva.
+                O mundo nunca mais será o mesmo.
+            </p>
+            <button class="iniciar-btn">Iniciar</button>
+        </div>
+        <div class="caixa-perguntas"></div>
+        <div class="caixa-alternativas"></div>
+        <div class="caixa-resultado">
+            <p class="texto-resultado"></p>
+            <button class="novamente-btn">Jogar novamente</button>
+        </div>
+    </div>
+    <script type="module" src="js/aleatorio.js"></script>
+    <script type="module" src="js/perguntas.js"></script>
+    <script type="module" src="js/script.js"></script>
 </body>
+
 </html>
